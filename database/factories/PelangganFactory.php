@@ -2,12 +2,12 @@
 
 namespace Database\Factories;
 
-use App\Models\kategori;
+use App\Models\Pelanggan;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class KategoriFactory extends Factory
+class PelangganFactory extends Factory
 {
-    protected $model = kategori::class;
+    protected $model = Pelanggan::class;
 
     public function definition(): array
     {
